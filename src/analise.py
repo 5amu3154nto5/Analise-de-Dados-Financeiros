@@ -15,14 +15,27 @@ print(f"Total de entradas: R$ {entradas:.2f}")
 print(f"Total de saídas: R$ {saidas:.2f}")
 print(f"Saldo final: R$ {saldo:.2f}")
 
-# Exibe os gastos por categoria
+# Gastos por categoria (ANTES dos insights)
 gastos_categoria = df[df['tipo'] == 'saida'].groupby('categoria')['valor'].sum()
 gastos_categoria = gastos_categoria.sort_values(ascending=False)
+
+# Média de gastos
+media_gastos = df[df['tipo'] == 'saida']['valor'].mean()
+
+# Maior gasto
+maior_gasto = df[df['tipo'] == 'saida']['valor'].max()
+
+# Categoria com maior gasto
+categoria_maior = gastos_categoria.idxmax()
+
+print(f"\nMédia de gastos: R$ {media_gastos:.2f}")
+print(f"Maior gasto: R$ {maior_gasto:.2f}")
+print(f"Categoria com maior gasto: {categoria_maior}")
 
 print("\nGastos por categoria:")
 print(gastos_categoria)
 
-# Exibe um gráfico dos resultados
+# Gráfico
 plt.figure(figsize=(8,5))
 gastos_categoria.plot(kind='bar', color='skyblue')
 plt.title("Gastos por Categoria")
