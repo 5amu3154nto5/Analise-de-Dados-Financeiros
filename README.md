@@ -1,6 +1,6 @@
 # 💰 Análise de Dados Financeiros
 
-Projeto desenvolvido para análise de transações financeiras, com foco em extração de insights e manipulação de dados utilizando Python.
+Projeto de análise de dados financeiros desenvolvido para extrair insights a partir de transações, permitindo identificar padrões de gastos, saldo e comportamento financeiro utilizando Python.
 
 ## 🚀 Tecnologias
 
@@ -23,14 +23,19 @@ Demonstrar habilidades em análise de dados, manipulação de informações fina
 ## 💡 Aprendizados
 
 * Análise de dados com Python
-* Uso de bibliotecas como Pandas
+* Manipulação e análise de dados com Pandas
 * Organização e estruturação de projetos
 * Visualização de dados
 
-## ▶️ Como executar
+## 📈 Exemplo de saída
 
-1. Instale as dependências:
-   pip install pandas matplotlib
+```bash
+Total de entradas: 3500
+Total de saídas: 950
+Saldo final: 2550
 
-2. Execute o script:
-   python src/analise.py
+Gastos por categoria:
+alimentacao: 150
+transporte: 200
+lazer: 100
+```
