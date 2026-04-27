@@ -1,0 +1,7 @@
+data,tipo,valor,categoria
+2024-01-01,entrada,3000,salario
+2024-01-03,saida,150,alimentacao
+2024-01-05,saida,200,transporte
+2024-01-10,saida,500,aluguel
+2024-01-15,entrada,500,freelance
+2024-01-20,saida,100,lazer
