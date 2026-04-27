@@ -27,6 +27,13 @@ Demonstrar habilidades em análise de dados, manipulação de informações fina
 * Organização e estruturação de projetos
 * Visualização de dados
 
+## 📊 Insights
+
+* A maior categoria de gastos é **aluguel**, indicando um custo fixo elevado
+* Gastos com **lazer e alimentação** representam despesas variáveis que podem ser otimizadas
+* O saldo final positivo demonstra controle financeiro
+* A análise permite identificar padrões de consumo e oportunidades de economia
+
 ## 📈 Exemplo de saída
 
 ```bash
